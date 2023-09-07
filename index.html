@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div style="display: flex;justify-content: center;">
+        <img class="profileimage" id="profileimage" src="resources/cat-bop.gif">
+    </div>
+    <div style="display: flex; justify-content: center;">
+        <h1 style="color: #F46036;">Jamshaid Ahmed</h1>
+    </div>
+    <div style="justify-content: center; margin-right: 20%; margin-left: 20%;">
+        <p>&emsp;&emsp;Hi, I do game stuff and use Unreal Engine as my game engine.
+            I mostly do gameplay programming but have decent grip on all aspects of game development lifecycle.
+            I am passionate about games and love to designing and coding immersive gaming experiences.
+            I know a thing or two about Uneral Engine, Blender and Maya.
+        <p>I Play alot of games some of which are Valorant, COD MW2 , CSGO ,
+            Genshin Impect and Krunker.</p>
+        </p>
+        <p>Here is some of the work i've done recently.</p>
+        <ul>
+            <details>
+                <summary>UE5 Multiplayer and Chat System</summary>
+                <p class="detailsp">Unreal Engine Basic Project setup from Multiplayer using UE5's Replication system.
+                    This was a perosonal project for learning Sockets implementation in Unreal
+                    Engine 5 using VA-rest. Sockets are build Using Socket.io in Node.js.
+                    Chat system is a standalone module of the project so it can be used with future projects with
+                    minimul changes.
+                    I had alot of fun doin it and in the mean time learned alot. I used WizardCell's Multiplayer blog to
+                    study and build this project.</p>
+                <p class="detailsp"><a href="https://wizardcell.com/unreal/multiplayer-tips-and-tricks/"
+                        target="_blank">WizardCell's Blog</a></p>
+            </details>
+            <details>
+                <summary>Pixel Streaming With UE5</summary>
+                <p class="detailsp">This was a Freelance Project for a stealblue.llc for their architeture
+                    visualization.
+                    Pixel Streaming is solution of UE5 that enables us to use cloud hardware to run and render our high
+                    fidelity applications and stream it to a web based frontend with the help of webRTC.
+
+                    I used <a href="https://www.coreweave.com/solutions/pixel-streaming" target="_blank">Coreweave's
+                        SPS</a>
+                    Solution to deploy this product.
+                    This tech is really usefull for architeture or product visualization and collaberative meetups. </p>
+            </details>
+            <details>
+                <summary>PixelStreaming With Multiplayer</summary>
+                <p class="detailsp">This project includes all basic setup and implementations of a multiplayer game with
+                    Pixel Streaming.
+                    Multiplayer includes sessions, Profiling, Chat system, Access controll for admin through a web based
+                    frontend (Made By a friend ~~).
+
+                </p>
+            </details>
+            <details>
+                <summary>VR stuff</summary>
+                <p class="detailsp">I've done alot or random bullshit for VR, Just playing around to do things with
+                    Oculus Quest.
+                    For starters i made an Office Scene in blender and added it to UE5 to use it on Vulkun but as you
+                    might know lumen doesn't use bake lighting
+                    and it looked absolute shit 😶
+                    so inspired by Bruno Simon's <a href="https://my-room-in-3d.vercel.app/" target="_blank">My Room in
+                        3D</a>
+                    project work flow i baked the whole office in blender and the results were rather promising.
+                </p>
+            </details>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="achievement">
+            <div class="animation">
+                <div class="circle">
+                    <div class="img trophy_animate trophy_img">
+                        <img class="trophy_1" src="/resources/achivement/trophy_full.svg"/>
+                        <img class="trophy_2" src="/resources/achivement/trophy_no_handles.svg"/>
+                    </div>
+                    <div class="img xbox_img">
+                        <img src="/resources/achivement/xbox.svg"/>
+                    </div>
+                    <div class="brilliant-wrap">
+                        <div class="brilliant">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-outer">
+                    <div class="banner">
+                        <div class="achieve_disp">
+                            <span class="unlocked">
+                              
+                            </span>
+                            <div class="score_disp">
+                                <div class="gamerscore">
+                                    <img width="20px" src="/resources/achivement/G.svg"/>
+                                    <span class="acheive_score"></span>
+                                </div>
+                                <span class="hyphen_sep">-</span>
+                                <span class="achiev_name"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="js.js"></script>
+
+</html>
