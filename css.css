@@ -71,7 +71,6 @@ a:visited {
 }
 
 .content{
-  height: 100vh;
   display: flex;
   justify-content: center;
 }
