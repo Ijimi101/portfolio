@@ -1,10 +1,10 @@
 const titleTexts = ["Hello 😃", "Hello 😄"]; // Add your desired title texts
-const catURIs = ["portfolio/resources/polite_cat.png", "portfolio/resources/thumbsUp_cat.png", "portfolio/resources/cat-bop.gif"]; // Add your desired title texts
+const catURIs = ["resources/polite_cat.png", "resources/thumbsUp_cat.png", "resources/cat-bop.gif"]; // Add your desired title texts
 var flipcount = 0;
 var maxflipcount = 25;
 var profileimage = document.getElementById("profileimage");
 const delay = ms => new Promise(res => setTimeout(res, ms));
-let achievementSound = new Audio('portfolio/resources/achivement/sounds/XboxOneRareAchievement.mp3')
+let achievementSound = new Audio('resources/achivement/sounds/XboxOneRareAchievement.mp3')
 
 
 const animateTitle = async () => {
